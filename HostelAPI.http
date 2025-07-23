@@ -1,0 +1,6 @@
+@HostelAPI_HostAddress = http://localhost:5171
+
+GET {{HostelAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
