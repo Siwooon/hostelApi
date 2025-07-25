@@ -22,84 +22,6 @@ namespace HostelAPI.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("HostelAPI.Models.HousekeepingTask", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Comment")
-                        .HasColumnType("text");
-
-                    b.Property<bool>("DamageReported")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsCompleted")
-                        .HasColumnType("boolean");
-
-                    b.Property<int>("RoomId")
-                        .HasColumnType("integer");
-
-                    b.Property<DateTime>("ScheduledDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("RoomId");
-
-                    b.ToTable("HousekeepingTasks");
-                });
-
-            modelBuilder.Entity("HostelAPI.Models.Reservation", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("EndDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<bool>("IsCancelled")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsPaid")
-                        .HasColumnType("boolean");
-
-                    b.Property<bool>("IsRefunded")
-                        .HasColumnType("boolean");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Reservations");
-                });
-
-            modelBuilder.Entity("HostelAPI.Models.ReservationRoom", b =>
-                {
-                    b.Property<int>("ReservationId")
-                        .HasColumnType("integer");
-
-                    b.Property<int>("RoomId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("ReservationId", "RoomId");
-
-                    b.HasIndex("RoomId");
-
-                    b.ToTable("ReservationRooms");
-                });
-
             modelBuilder.Entity("HostelAPI.Models.Room", b =>
                 {
                     b.Property<int>("Id")
@@ -118,8 +40,9 @@ namespace HostelAPI.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("numeric");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("integer");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<int>("Type")
                         .HasColumnType("integer");
@@ -135,7 +58,7 @@ namespace HostelAPI.Migrations
                             Capacity = 1,
                             Number = "101",
                             Price = 50.00m,
-                            Status = 5,
+                            Status = "Available, NoIssue",
                             Type = 0
                         },
                         new
@@ -144,7 +67,7 @@ namespace HostelAPI.Migrations
                             Capacity = 2,
                             Number = "102",
                             Price = 80.00m,
-                            Status = 6,
+                            Status = "Available, NeedsCleaning",
                             Type = 1
                         },
                         new
@@ -153,7 +76,7 @@ namespace HostelAPI.Migrations
                             Capacity = 6,
                             Number = "201",
                             Price = 30.00m,
-                            Status = 5,
+                            Status = "Available, MajorDamage",
                             Type = 2
                         });
                 });
@@ -170,11 +93,15 @@ namespace HostelAPI.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("FullName")
+                    b.Property<string>("FirstName")
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<string>("PasswordHash")
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -184,33 +111,109 @@ namespace HostelAPI.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Email = "LaurentGina@hotmail.com",
+                            FirstName = "Laurent",
+                            LastName = "Gina",
+                            Password = "AQAAAAIAAYagAAAAENq6q7SJ7IiKxWxeKnHuwwU084Spq37pZtDgcdN/ywsYaoZ1Zsu0X09tBq5A4WIOxw==",
+                            Role = 0
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "JauneDo@gmail.com",
+                            FirstName = "John",
+                            LastName = "Doe",
+                            Password = "AQAAAAIAAYagAAAAEC+Gmfb3aG5Olm+Gagk2f1KZjPb/8sUlOucu8Kknu8fHLoqK+PeyPu42REKvXE6wTg==",
+                            Role = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Email = "Gégééé@gmail.com",
+                            FirstName = "Gérard",
+                            LastName = "Menvussa",
+                            Password = "AQAAAAIAAYagAAAAEPGdXgvrBx3/TC3XHCCzDXPa/DRbIOIMtTbrAdjHH2abpxUpkyi+FfanrkiiwyPPZg==",
+                            Role = 2
+                        });
                 });
 
-            modelBuilder.Entity("HostelAPI.Models.HousekeepingTask", b =>
+            modelBuilder.Entity("Reservation", b =>
                 {
-                    b.HasOne("HostelAPI.Models.Room", "Room")
-                        .WithMany("HousekeepingTasks")
-                        .HasForeignKey("RoomId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
 
-                    b.Navigation("Room");
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateReservation")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsCancelled")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsCheckedIn")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsCheckedOut")
+                        .HasColumnType("boolean");
+
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("boolean");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("isRefunded")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Reservations");
                 });
 
-            modelBuilder.Entity("HostelAPI.Models.Reservation", b =>
+            modelBuilder.Entity("ReservationRoom", b =>
                 {
-                    b.HasOne("HostelAPI.Models.User", "User")
+                    b.Property<int>("ReservationId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("RoomId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("ReservationId", "RoomId");
+
+                    b.HasIndex("RoomId");
+
+                    b.ToTable("ReservationRooms");
+                });
+
+            modelBuilder.Entity("Reservation", b =>
+                {
+                    b.HasOne("HostelAPI.Models.User", null)
                         .WithMany("Reservations")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("User");
                 });
 
-            modelBuilder.Entity("HostelAPI.Models.ReservationRoom", b =>
+            modelBuilder.Entity("ReservationRoom", b =>
                 {
-                    b.HasOne("HostelAPI.Models.Reservation", "Reservation")
+                    b.HasOne("Reservation", "Reservation")
                         .WithMany("ReservationRooms")
                         .HasForeignKey("ReservationId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -227,21 +230,19 @@ namespace HostelAPI.Migrations
                     b.Navigation("Room");
                 });
 
-            modelBuilder.Entity("HostelAPI.Models.Reservation", b =>
-                {
-                    b.Navigation("ReservationRooms");
-                });
-
             modelBuilder.Entity("HostelAPI.Models.Room", b =>
                 {
-                    b.Navigation("HousekeepingTasks");
-
                     b.Navigation("ReservationRooms");
                 });
 
             modelBuilder.Entity("HostelAPI.Models.User", b =>
                 {
                     b.Navigation("Reservations");
+                });
+
+            modelBuilder.Entity("Reservation", b =>
+                {
+                    b.Navigation("ReservationRooms");
                 });
 #pragma warning restore 612, 618
         }

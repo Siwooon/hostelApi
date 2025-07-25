@@ -3,64 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\simon\\Desktop\\HostelAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:services\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\hosteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:hosteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:repositories\\roomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\roomcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\hostelapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:hostelapi.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\hosteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:hosteldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\reservationroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,8 +43,72 @@
       "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\housekeepingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\housekeepingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:interfaces\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\roomstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:dtos\\roomdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:interfaces\\iroomrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:interfaces\\iroomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:services\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\hostelapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:hostelapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:enums\\roomtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|c:\\users\\simon\\desktop\\hostelapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78EA8BDE-8666-481E-984E-680D6DBA25AB}|HostelAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,82 +118,214 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\IUserService.cs",
-              "RelativeDocumentMoniker": "Controllers\\IUserService.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\IUserService.cs",
-              "RelativeToolTip": "Controllers\\IUserService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAGAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T23:25:44.803Z",
+              "WhenOpened": "2025-07-18T21:48:47.259Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAwEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T10:41:07.016Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomRepository.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\RoomRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\RoomRepository.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\RoomRepository.cs",
+              "RelativeToolTip": "Repositories\\RoomRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAEwDEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:01:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HostelDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelDbContext.cs",
+              "RelativeDocumentMoniker": "HostelDbContext.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelDbContext.cs",
+              "RelativeToolTip": "HostelDbContext.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAAFUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T17:57:54.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Services\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\ReservationService.cs",
+              "RelativeToolTip": "Services\\ReservationService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAYwGwAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:39:59.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IReservationService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IReservationService.cs",
+              "RelativeToolTip": "Interfaces\\IReservationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAMAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:39:47.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomStatus.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomStatus.cs",
+              "RelativeDocumentMoniker": "Enums\\RoomStatus.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomStatus.cs",
+              "RelativeToolTip": "Enums\\RoomStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:32:11.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "Repositories\\ReservationRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T23:17:01.77Z",
+              "WhenOpened": "2025-07-25T13:36:52.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\DTOs\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\DTOs\\ReservationDto.cs",
+              "RelativeToolTip": "DTOs\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:36:17.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "RoomType.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomType.cs",
-              "RelativeDocumentMoniker": "Enums\\RoomType.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomType.cs",
-              "RelativeToolTip": "Enums\\RoomType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "Title": "RoomService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\RoomService.cs",
+              "RelativeDocumentMoniker": "Services\\RoomService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\RoomService.cs",
+              "RelativeToolTip": "Services\\RoomService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAvwBYAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:28:03.492Z",
+              "WhenOpened": "2025-07-25T18:25:34.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T22:16:53.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:14:12.953Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserRole.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\UserRole.cs",
-              "RelativeDocumentMoniker": "Enums\\UserRole.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\UserRole.cs",
-              "RelativeToolTip": "Enums\\UserRole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Title": "RoomController.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\RoomController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\RoomController.cs",
+              "RelativeToolTip": "Controllers\\RoomController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:20:44.766Z",
+              "WhenOpened": "2025-07-25T18:10:19.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HousekeepingTask.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\HousekeepingTask.cs",
-              "RelativeDocumentMoniker": "Models\\HousekeepingTask.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\HousekeepingTask.cs",
-              "RelativeToolTip": "Models\\HousekeepingTask.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:19:01.965Z",
+              "WhenOpened": "2025-07-25T18:24:37.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\DTOs\\RoomDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RoomDto.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\DTOs\\RoomDto.cs",
+              "RelativeToolTip": "DTOs\\RoomDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T18:28:08.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ReservationRoom.cs",
               "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\ReservationRoom.cs",
               "RelativeDocumentMoniker": "Models\\ReservationRoom.cs",
               "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\ReservationRoom.cs",
               "RelativeToolTip": "Models\\ReservationRoom.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T22:18:53.765Z",
               "EditorCaption": ""
@@ -165,148 +333,135 @@
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Reservation.cs",
-              "RelativeDocumentMoniker": "Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Reservation.cs",
-              "RelativeToolTip": "Models\\Reservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:16:53.726Z",
+              "WhenOpened": "2025-07-18T22:20:44.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Room.cs",
-              "RelativeDocumentMoniker": "Models\\Room.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\Room.cs",
-              "RelativeToolTip": "Models\\Room.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:16:44.264Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:16:32.039Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "RoomController.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\RoomController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RoomController.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Controllers\\RoomController.cs",
-              "RelativeToolTip": "Controllers\\RoomController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:08:06.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HostelAPI",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelAPI.csproj",
-              "RelativeDocumentMoniker": "HostelAPI.csproj",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelAPI.csproj",
-              "RelativeToolTip": "HostelAPI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-18T22:36:05.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RoomRepository.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\RoomRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\RoomRepository.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Repositories\\RoomRepository.cs",
-              "RelativeToolTip": "Repositories\\RoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:58:54.341Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T21:48:47.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HostelDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelDbContext.cs",
-              "RelativeDocumentMoniker": "HostelDbContext.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelDbContext.cs",
-              "RelativeToolTip": "HostelDbContext.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwC4AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:33:24.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-18T23:15:44.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "RoomStatus.cs",
-              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomStatus.cs",
-              "RelativeDocumentMoniker": "Enums\\RoomStatus.cs",
-              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomStatus.cs",
-              "RelativeToolTip": "Enums\\RoomStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T22:28:20.202Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "IRoomRepository.cs",
               "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IRoomRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IRoomRepository.cs",
               "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IRoomRepository.cs",
               "RelativeToolTip": "Interfaces\\IRoomRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T22:56:38.428Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
+              "Title": "IRoomService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IRoomService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IRoomService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IRoomService.cs",
+              "RelativeToolTip": "Interfaces\\IRoomService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:12:16.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Services\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\IPaymentService.cs",
+              "RelativeToolTip": "Services\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T13:46:02.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:15:53.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RoomType.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomType.cs",
+              "RelativeDocumentMoniker": "Enums\\RoomType.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Enums\\RoomType.cs",
+              "RelativeToolTip": "Enums\\RoomType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T22:28:03.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T22:16:32.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T23:25:44.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-18T23:15:44.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HostelAPI",
+              "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelAPI.csproj",
+              "RelativeDocumentMoniker": "HostelAPI.csproj",
+              "ToolTip": "C:\\Users\\simon\\Desktop\\HostelAPI\\HostelAPI.csproj",
+              "RelativeToolTip": "HostelAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-24T21:51:14.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\simon\\Desktop\\HostelAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -314,8 +469,7 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-18T22:36:11.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T22:36:11.748Z"
             }
           ]
         }

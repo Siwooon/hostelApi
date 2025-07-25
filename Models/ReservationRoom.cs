@@ -1,12 +1,10 @@
-﻿namespace HostelAPI.Models
+﻿using HostelAPI.Models;
+
+public class ReservationRoom
 {
-    public class ReservationRoom
-    {
-        public required int ReservationId { get; set; }
-        public required Reservation Reservation { get; set; }
+    public int ReservationId { get; set; }
+    public Reservation Reservation { get; set; }
 
-        public required int RoomId { get; set; }
-        public required Room Room { get; set; }
-    }
-
+    public int RoomId { get; set; }
+    public Room Room { get; set; }
 }

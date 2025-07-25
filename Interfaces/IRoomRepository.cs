@@ -4,10 +4,11 @@ namespace HostelAPI.Interfaces
 {
     public interface IRoomRepository
     {
-        IEnumerable<Room> GetAllRooms();
-        Room GetRoomById(int id);
-        void AddRoom(Room room);
-        void UpdateRoom(Room room);
-        void DeleteRoom(int id);
+        Task<IEnumerable<Room>> GetAllAsync();
+        Task<Room> GetByIdAsync(int id);
+        Task<IEnumerable<Room>> GetDisponiblesAsync(DateTime debut, DateTime fin);
+        Task<Room> AddAsync(Room Room);
+        Task<Room> UpdateAsync(Room Room);
+        Task DeleteAsync(int id);
     }
 }

@@ -5,18 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HostelAPI
 {
-    public class HostelDbContext : DbContext
+    public class HostelDbContext(DbContextOptions<HostelDbContext> options) : DbContext(options)
     {
-        public HostelDbContext(DbContextOptions<HostelDbContext> options)
-    : base(options)
-        {
-        }
 
         public DbSet<User> Users { get; set; }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Reservation> Reservations { get; set; }
         public DbSet<ReservationRoom> ReservationRooms { get; set; }
-        public DbSet<HousekeepingTask> HousekeepingTasks { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -42,29 +37,32 @@ namespace HostelAPI
                         Id = 1,
                         FirstName = "Laurent",
                         LastName = "Gina",
-                        PasswordHash = "hashed_password_1", // Replace with actual hashed password
-                        Role = UserRole.Client
-                    },
-                    new User
-                    {
-                        Id = 1,
-                        FirstName = "John",
-                        LastName = "Doe",
-                        PasswordHash = "hashed_password_1", // Replace with actual hashed password
+                        Email = "LaurentGina@hotmail.com",
+                        Password = "AQAAAAIAAYagAAAAENq6q7SJ7IiKxWxeKnHuwwU084Spq37pZtDgcdN/ywsYaoZ1Zsu0X09tBq5A4WIOxw==",
                         Role = UserRole.Client,
                         Reservations = []
                     },
                     new User
                     {
-                        Id = 1,
+                        Id = 2,
                         FirstName = "John",
                         LastName = "Doe",
-                        PasswordHash = "hashed_password_1", // Replace with actual hashed password
-                        Role = UserRole.Client,
+                        Email = "JauneDo@gmail.com",
+                        Password = "AQAAAAIAAYagAAAAEC+Gmfb3aG5Olm+Gagk2f1KZjPb/8sUlOucu8Kknu8fHLoqK+PeyPu42REKvXE6wTg==",
+                        Role = UserRole.Receptionist,
+                        Reservations = []
+                    },
+                    new User
+                    {
+                        Id = 3,
+                        FirstName = "Gérard",
+                        LastName = "Menvussa",
+                        Email = "Gégééé@gmail.com",
+                        Password = "AQAAAAIAAYagAAAAEPGdXgvrBx3/TC3XHCCzDXPa/DRbIOIMtTbrAdjHH2abpxUpkyi+FfanrkiiwyPPZg==",
+                        Role = UserRole.Housekeeping,
                         Reservations = []
                     });
 
-            // Ajout des fixtures pour Rooms
             modelBuilder.Entity<Room>().HasData(
                 new Room
                 {
@@ -73,8 +71,7 @@ namespace HostelAPI
                     Type = RoomType.Single,
                     Capacity = 1,
                     Price = 50.00m,
-                    Status = RoomStatus.Available,
-                    HousekeepingTasks = [],
+                    Status = $"{RoomStatus.Available.ToString()},{RoomStatus.NoIssue.ToString()}",
                     ReservationRooms = []
                 },
                 new Room
@@ -84,8 +81,7 @@ namespace HostelAPI
                     Type = RoomType.Double,
                     Capacity = 2,
                     Price = 80.00m,
-                    Status = RoomStatus.Occupied,
-                    HousekeepingTasks = [],
+                    Status = $"{RoomStatus.Available.ToString()},{RoomStatus.NeedsCleaning.ToString()}",
                     ReservationRooms = []
                 },
                 new Room
@@ -95,8 +91,7 @@ namespace HostelAPI
                     Type = RoomType.Suite,
                     Capacity = 6,
                     Price = 30.00m,
-                    Status = RoomStatus.Available,
-                    HousekeepingTasks = [],
+                    Status = $"{RoomStatus.Available.ToString()},{RoomStatus.MajorDamage.ToString()}",
                     ReservationRooms = []
                 }
             );
